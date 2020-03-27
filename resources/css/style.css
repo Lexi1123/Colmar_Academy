@@ -45,9 +45,9 @@ nav span {
 
 /* banner */
 .banner-container {
-	display: inline-flex;
+	display: flex;
 	background-color: lightgrey;
-	height: 630px;
+	height: 100%;
 	width: 100%;
 }
 
@@ -63,7 +63,7 @@ nav span {
 	padding-left: 24px;
 	padding-top:32px;
 	padding-bottom: 32px;
-	display: inline-block;
+	display: inline-flex;
 }
 
 .banner--text {
@@ -76,8 +76,10 @@ nav span {
 	z-index: 1;
 	background-color: black;
 	padding: 8px 16px 8px 16px;
-
 }
+
+/* information */
+
 
 
 
