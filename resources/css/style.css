@@ -32,6 +32,7 @@ header nav {
 
 span a {
 	color: #57595c;
+	text-decoration: none;
 }
 
 nav{
@@ -59,7 +60,7 @@ nav span {
 .banner img {
 	float: left;
 	height: auto;
-	width: 600px;
+	width: 60%;
 	padding-left: 24px;
 	padding-top:32px;
 	padding-bottom: 32px;
@@ -75,13 +76,72 @@ nav span {
 .banner--cta {
 	z-index: 1;
 	background-color: black;
-	padding: 8px 16px 8px 16px;
+	padding: 8px 32px 8px 32px;
+}
+
+.banner--cta a {
+	color: white;
+	text-decoration: none;
 }
 
 /* information */
 
+.information-container {
+	display: flex;
+	background-color: white;
+	height: 100%;
+	width: 100%;
+}
 
+.information-left {
 
+}
+
+.information-left img {
+	width: 60%;
+	
+	height: auto;
+	padding-top: 32px;
+	padding-left: 24px;
+	padding-right: 24px;
+	display: inline-flex;
+}
+
+.information-left h2 {
+	display: inline-block;
+	padding-top: 32px;
+	padding-left: 24px;
+} 
+.information-left p {
+	font-weight: lighter;
+	width: 60%;
+	padding: 24px 24px 32px 24px;
+}
+
+.information-right {
+	display: inline-block;
+	padding-left: 24px;
+	width: 100%;
+	border: 1px solid grey;
+}
+
+.information-items {
+	border: 1px solid grey;
+	display: inline-flex;
+}
+
+.information-right img {
+	width: 35%;
+	height: auto;
+	display: inline-flex;
+	float: left;
+}
+
+.information--text {
+	width: 65%;
+	display: inline-block;
+	padding-left: 24px;
+}
 
 
 
