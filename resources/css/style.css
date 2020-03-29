@@ -55,6 +55,7 @@ nav span {
 .banner {
 	display: flex;
 	align-items: center;
+	padding-right: 24px;
 }
 
 .banner img {
@@ -89,8 +90,8 @@ nav span {
 .information-container {
 	display: flex;
 	background-color: white;
-	height: 100%;
 	width: 100%;
+	height: auto;
 }
 
 .information-left {
@@ -99,7 +100,6 @@ nav span {
 
 .information-left img {
 	width: 60%;
-	
 	height: auto;
 	padding-top: 32px;
 	padding-left: 24px;
@@ -131,22 +131,79 @@ nav span {
 }
 
 .information-right img {
-	width: 35%;
+	width: 100%;
 	height: auto;
 	display: inline-flex;
 	float: left;
 }
 
 .information--text {
-	width: 65%;
 	display: inline-block;
 	padding-left: 24px;
 }
 
+/* course */
+
+.course-container {
+	background-color: lightgrey;
+	width: 100%;
+}
+
+.course-content {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 32px 72px 32px 72px;
+
+}
+
+.course-container h2 {
+	text-align: center;
+	padding-top: 32px;
+}
+
+.course-item {
+
+	justify-content: space-around;
+	width: 100%;
+	height: auto;
+
+}
+
+.course-item h3 p {
 
 
+}
 
+/* Thesis exhibit */
 
+.thesis-container h2 {
+	text-align: center;
+	padding-top: 32px;
+}
+
+.thesis-content {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.thesis-left video {
+	width: 600px;
+	height: auto;
+
+}
+
+.thesis-left p {
+	width: 60%;
+ 
+}
+
+.thesis-right {
+	
+	float: left;
+}
 
 
 
