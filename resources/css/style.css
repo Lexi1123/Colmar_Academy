@@ -91,89 +91,102 @@ nav span {
 	display: flex;
 	background-color: white;
 	width: 100%;
-	height: auto;
+	height: 100%;
 }
 
 .information-left {
-
+	width: 60%;
+	padding-left: 24px;
 }
 
 .information-left img {
-	width: 60%;
-	height: auto;
+	width: 100%;
 	padding-top: 32px;
-	padding-left: 24px;
 	padding-right: 24px;
-	display: inline-flex;
+
 }
 
 .information-left h2 {
-	display: inline-block;
-	padding-top: 32px;
-	padding-left: 24px;
+	padding-top: 24px;
 } 
 .information-left p {
 	font-weight: lighter;
-	width: 60%;
-	padding: 24px 24px 32px 24px;
+	padding: 0px 24px 32px 0px;
 }
 
 .information-right {
-	display: inline-block;
-	padding-left: 24px;
-	width: 100%;
-	border: 1px solid grey;
+	padding-top: 32px;
+	width: 40%;
+	flex-direction: column;
+	margin-left: 24px;
+	border: 0.25px solid lightgrey;
 }
 
 .information-items {
-	border: 1px solid grey;
+	align-items: center;
+	border: 0.25px solid lightgrey;
 	display: inline-flex;
+	position: relative;
+}
+
+.information-items #guest {
+	background-color: grey;
 }
 
 .information-right img {
-	width: 100%;
+	padding: 16px 16px;
+	width: 35%;
 	height: auto;
-	display: inline-flex;
-	float: left;
+	position: relative;
+	
 }
 
 .information--text {
+	width: 65%;
 	display: inline-block;
-	padding-left: 24px;
+	padding-left: 16px;
 }
+
+.information--text a {
+	text-decoration: none;
+	color: cornflowerblue;
+}
+
 
 /* course */
 
 .course-container {
-	background-color: lightgrey;
+	background-color: aliceblue;
 	width: 100%;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.course-container h2 {
+	text-align: center;
 }
 
 .course-content {
 	display: flex;
 	flex-wrap: wrap;
-	align-items: center;
-	padding: 32px 72px 32px 72px;
-
-}
-
-.course-container h2 {
-	text-align: center;
-	padding-top: 32px;
-}
-
-.course-item {
-
-	justify-content: space-around;
 	width: 100%;
-	height: auto;
+	align-items: center;
+	justify-content: center;
+	padding: 32px 72px 32px 72px;
+}
+
+.course-items {
+	background-color: white;
+	border: 1px solid black;
+	display: inline-block;
+	margin: 0px 32px 32px 18px;
+}
+
+.course-items img {
+	width: 100%;
 
 }
 
-.course-item h3 p {
-
-
-}
 
 /* Thesis exhibit */
 
