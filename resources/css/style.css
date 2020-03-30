@@ -129,10 +129,6 @@ nav span {
 	position: relative;
 }
 
-.information-items #guest {
-	background-color: grey;
-}
-
 .information-right img {
 	padding: 16px 16px;
 	width: 35%;
@@ -144,7 +140,6 @@ nav span {
 .information--text {
 	width: 65%;
 	display: inline-block;
-	padding-left: 16px;
 }
 
 .information--text a {
@@ -167,15 +162,14 @@ nav span {
 }
 
 .course-content {
-	display: flex;
-	flex-wrap: wrap;
+	display: grid;
+	grid-template: 1fr 1fr / 1fr 1fr 1fr;
 	align-items: center;
 	justify-content: center;
 	padding: 32px 72px 32px 72px;
 }
 
 .course-items {
-	display: inline-flex;
 	width: initial;
 	background-color: white;
 	display: inline-block;
@@ -188,9 +182,16 @@ nav span {
 
 .course--text {
 	padding-left: 18px;
+	padding-right: 18px;
 	word-wrap: break-word;
-
 }
+
+.course--text p {
+	font-weight: lighter;
+}
+
+
+
 /* Thesis exhibit */
 
 .thesis-container h2 {
@@ -199,32 +200,95 @@ nav span {
 }
 
 .thesis-content {
-	position: relative;
+	width: 100%;
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: center;
 }
 
-.thesis-left video {
-	width: 600px;
-	height: auto;
+.thesis-left {
+	width: 60%;
+	padding-right: 24px;
+	padding-left: 24px;
+	padding-top: 32px;
 
 }
 
-.thesis-left p {
-	width: 60%;
- 
+.thesis-left video {
+	width: 100%;
+	height: auto;
+}
+
+.thesis-left h3 {
+	padding-top: 16px;
+	padding-bottom: 8px;
+}
+
+.thesis-right p {
+	padding-bottom: 32px;
+	font-weight: lighter;
+
 }
 
 .thesis-right {
-	
-	float: left;
+	width: 40%;
+	padding-top: 32px;
 }
 
+.thesis-items{
+	align-items: flex-start;
+	justify-content: center;
 
+}
 
+.thesis-right-content {
+	display: inline-flex;
+	background-color: whitesmoke;
+}
 
+.thesis-right-content img {
+	padding: 16px 16px;
+	width: 35%;
+	height: auto;
+}
 
+.thesis--text {
+	width: 65%;
+}
+
+.thesis--text p {
+	font-weight: lighter;
+}
+
+/* footer */
+
+.divider {
+	border-top: 0.25px solid lightgrey;
+}
+
+.footer{
+	
+}
+
+footer{
+	padding-left: 24px;
+}
+
+footer a {
+	text-align: right;
+	display: inline-block;
+	flex-grow: 1;
+	text-decoration: none;
+	color: cornflowerblue;
+}
+
+footer p {
+	text-align: left;
+}
+.flex-footer {
+	display: inline-block;
+	font-size: 0.7em;
+}
 
 
 
