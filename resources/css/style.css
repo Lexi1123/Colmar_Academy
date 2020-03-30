@@ -169,25 +169,28 @@ nav span {
 .course-content {
 	display: flex;
 	flex-wrap: wrap;
-	width: 100%;
 	align-items: center;
 	justify-content: center;
 	padding: 32px 72px 32px 72px;
 }
 
 .course-items {
+	display: inline-flex;
+	width: initial;
 	background-color: white;
-	border: 1px solid black;
 	display: inline-block;
 	margin: 0px 32px 32px 18px;
 }
 
 .course-items img {
 	width: 100%;
-
 }
 
+.course--text {
+	padding-left: 18px;
+	word-wrap: break-word;
 
+}
 /* Thesis exhibit */
 
 .thesis-container h2 {
