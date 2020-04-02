@@ -35,7 +35,11 @@ header nav {
 	flex-grow: 1;
 }
 
-span a {
+#Desktop {
+	display: block;
+}
+
+#Desktop a {
 	color: #57595c;
 	text-decoration: none;
 }
@@ -44,7 +48,7 @@ nav{
 	padding-right: 24px;
 }
 
-nav span {
+#Desktop span {
 	display: inline-block;
 	padding-left: 16px;
 }

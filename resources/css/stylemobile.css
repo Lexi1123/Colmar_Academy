@@ -1,0 +1,22 @@
+@media only screen and (max-width: 710px) and (min-width: 320px)
+{
+	
+	#Mobile{
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		height: 64px;
+	}
+
+	#Desktop {
+		display: none;
+	}
+
+	.header-logo {
+		display: none;
+	}
+	.logo-img {
+		display: none;
+	}
+}
