@@ -146,6 +146,10 @@ nav{
 	
 }
 
+.information-mobile-img {
+	display: none;
+}
+
 .information--text {
 	width: 65%;
 	display: inline-block;

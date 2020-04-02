@@ -1,6 +1,6 @@
 @media only screen and (max-width: 710px) and (min-width: 320px)
 {
-	
+	/* nav */
 	#Mobile{
 		width: 100%;
 		display: flex;
@@ -19,4 +19,82 @@
 	.logo-img {
 		display: none;
 	}
+ 
+	/* banner */
+	.banner-container {
+		height: 100%;
+		padding-bottom: 32px;
+	}
+
+	.banner {
+		padding: 0;
+		width: 100%;
+		flex-wrap: wrap;
+
+	}
+
+	.banner img {
+		padding: 0;
+		width: 100%;
+	}
+
+	.banner--cta {
+		width: 100%;
+	}
+
+	/* information*/
+
+	.information-left {
+		display: none;
+		padding: 0;
+	}
+
+
+	.information-img {
+		display: none;
+	}
+
+	.information-right {
+		width: 100%;
+		height: auto;
+		padding: 16px 16px 32px 16px;
+		border: none;
+		margin: 0;
+	}
+
+	.information-right img {
+		width: 100%;
+		height: auto;
+		padding: 0%;
+		margin: 0;
+	}
+
+	.information-mobile-img {
+		width: 100%;
+		height: auto;
+		display: inline-flex;
+		padding: 0;		
+		margin: 0;
+	}
+
+	.information-items {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		display: inline-flex;
+		height: auto;
+		flex-wrap: wrap;
+		border:none;
+
+	}
+
+	.information--text {
+		padding-left:16px;	
+		padding-bottom: 32px;
+	}
+
+
+
+
+
 }
