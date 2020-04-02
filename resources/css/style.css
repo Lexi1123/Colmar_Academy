@@ -10,9 +10,14 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	padding-top: 16px;
 }
 .header-logo {
 	font-weight: bold;
+}
+
+#Mobile {
+	display: none;
 }
 
 header {
