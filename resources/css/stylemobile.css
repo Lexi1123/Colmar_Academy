@@ -93,6 +93,40 @@
 		padding-bottom: 32px;
 	}
 
+	/* course section */
+
+	.course-container {
+		padding-top: 32px;
+		padding-bottom: 32px;
+		background-color: white;
+		border: 0.25px solid lightgrey;
+	}
+
+	.course-items img {
+		display: none;
+	}
+
+	.course-items {
+		background-color: lightgrey;
+		width: 100%;
+	}
+
+	.course-content {
+		display: flex;
+		flex-direction: column;
+		padding: 16px 16px 0px 16px;
+
+	}
+	
+
+	.course--text p {
+		display: none;
+	}
+
+	.couse--text { 
+		justify-content: stretch;
+	}
+
 
 
 
